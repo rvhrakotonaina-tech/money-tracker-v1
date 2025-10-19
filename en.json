@@ -9,18 +9,18 @@
   "import_json": "Import JSON",
   "seed_sample": "Seed Sample",
   "reset": "Reset",
+
   "income": "Income",
   "expenses": "Expenses",
   "balance": "Balance",
+
   "add_transaction": "Add Transaction",
-  "type": "Type",
   "amount": "Amount",
   "category": "Category",
   "note_optional": "Note (optional)",
-  "date": "Date",
   "add": "Add",
+
   "filter_all": "All",
-  "search_note": "Search note",
   "date_col": "Date",
   "type_col": "Type",
   "category_col": "Category",
@@ -29,15 +29,17 @@
   "actions_col": "Actions",
   "prev": "Prev",
   "next": "Next",
-  "tx_count_one": "1 transaction",
-  "tx_count_other": "{count} transactions",
+
   "monthly_income_vs_expense": "Monthly Income vs Expense",
   "expense_by_category": "Expense by Category",
+
   "edit": "Edit",
   "delete": "Delete",
-  "confirm_clear": "Clear all data?",
-  "invalid_currency": "Invalid currency code. Use a valid ISO 4217 code, e.g., USD, EUR, INR.",
-  "lang_en": "EN",
-  "lang_fr": "FR",
-  "other": "Other"
+  "other": "Other",
+  "tx_count_one": "1 transaction",
+  "tx_count_other": "{count} transactions",
+
+  "confirm_clear": "Are you sure you want to clear all transactions?",
+  "invalid_currency": "Invalid currency code",
+  "search_note": "Search note"
 }
