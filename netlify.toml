@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+# Basic headers (optional)
+[[headers]]
+  for = "/locales/*"
+  [headers.values]
+    Cache-Control = "public, max-age=600"
+
+# Redirect root to index.html (for SPA-like behavior if needed)
+[[redirects]]
+  from = "/index"
+  to = "/index.html"
+  status = 200
